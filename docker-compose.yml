@@ -98,3 +98,13 @@ services:
 #    - '8080:8080' # Dashboard
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+
+  memcached:
+    container_name: "${PROJECT_NAME}_memcached"
+    image: wodby/memcached:$MEMCACHED_TAG
+
+  mongo:
+    container_name: "${PROJECT_NAME}_mongo"
+    image: mongo:5.0.5
+    labels:
+      - "traefik.http.routers.${PROJECT_NAME}_mongo.rule=Host(`mongo.${PROJECT_BASE_URL}`)"

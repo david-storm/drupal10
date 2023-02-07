@@ -2,7 +2,7 @@
 
 Run those commands
 ```shell
-docker-compose -up -d
+docker-compose up -d
 docker-compose exec php composer i
 ```
 
