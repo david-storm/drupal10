@@ -1,0 +1,7 @@
+flydentity_csvimporter.importer:
+  path: '/admin/test-batch'
+  defaults:
+    _form: '\Drupal\my_generic\Form\AddFile'
+    _title: 'Add File csv'
+  requirements:
+    _access: 'TRUE'

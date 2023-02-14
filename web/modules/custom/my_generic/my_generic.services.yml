@@ -1,0 +1,4 @@
+services:
+  my_generic.parser:
+    class: Drupal\my_generic\BatchService
+    arguments: ['@entity_type.manager']
