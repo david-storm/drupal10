@@ -1,0 +1,20 @@
+uuid: 9c5346d5-235a-41fc-bf72-56a814e424c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_generic
+  theme:
+    - olivero
+id: lazyblock
+theme: olivero
+region: content_above
+weight: 0
+provider: null
+plugin: lazyblock
+settings:
+  id: lazyblock
+  label: 'Lazy block'
+  label_display: visible
+  provider: my_generic
+visibility: {  }
