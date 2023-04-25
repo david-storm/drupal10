@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 713e31e0-2897-4f38-841b-4a2bb8784f75
-name: Drupal
-mail: ''
+uuid: adfd9c47-0ee1-41f3-9d6c-b298f900298a
+name: drupal10
+mail: cleardrupal@gmail.com
 slogan: ''
 page:
   403: ''

@@ -1,4 +1,4 @@
-uuid: 2b5c78c2-e37b-40b0-9f74-a0a2ebed78f0
+uuid: 0a6648f6-e024-4fbc-9674-f1eb51161c82
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - admin@example.com
+  - cleardrupal@gmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

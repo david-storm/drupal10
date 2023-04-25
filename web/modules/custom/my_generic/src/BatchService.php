@@ -30,6 +30,7 @@ class BatchService {
       ->setTitle(t('Parsing csv file'))
       ->addOperation([$this, 'main_logic'], [$data]);
 
+
     batch_set($batch_builder->toArray());
   }
 
